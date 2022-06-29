@@ -1,0 +1,26 @@
+[0.541s] Invoking command in '/home/kenan/robovolc/robovolc/src/robov': PYTHONPATH=/home/kenan/robovolc/robovolc/install/robov/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robov build --build-base /home/kenan/robovolc/robovolc/build/robov/build install --prefix /home/kenan/robovolc/robovolc/install/robov --record /home/kenan/robovolc/robovolc/build/robov/install.log --single-version-externally-managed
+[0.730s] running egg_info
+[0.731s] writing ../../build/robov/robov.egg-info/PKG-INFO
+[0.731s] writing dependency_links to ../../build/robov/robov.egg-info/dependency_links.txt
+[0.731s] writing entry points to ../../build/robov/robov.egg-info/entry_points.txt
+[0.731s] writing requirements to ../../build/robov/robov.egg-info/requires.txt
+[0.731s] writing top-level names to ../../build/robov/robov.egg-info/top_level.txt
+[0.760s] reading manifest file '../../build/robov/robov.egg-info/SOURCES.txt'
+[0.761s] writing manifest file '../../build/robov/robov.egg-info/SOURCES.txt'
+[0.761s] running build
+[0.761s] running build_py
+[0.761s] copying robov/commander.py -> /home/kenan/robovolc/robovolc/build/robov/build/lib/robov
+[0.761s] running install
+[0.762s] running install_lib
+[0.763s] copying /home/kenan/robovolc/robovolc/build/robov/build/lib/robov/commander.py -> /home/kenan/robovolc/robovolc/install/robov/lib/python3.8/site-packages/robov
+[0.764s] byte-compiling /home/kenan/robovolc/robovolc/install/robov/lib/python3.8/site-packages/robov/commander.py to commander.cpython-38.pyc
+[0.765s] running install_data
+[0.765s] running install_egg_info
+[0.767s] removing '/home/kenan/robovolc/robovolc/install/robov/lib/python3.8/site-packages/robov-0.0.0-py3.8.egg-info' (and everything under it)
+[0.767s] Copying ../../build/robov/robov.egg-info to /home/kenan/robovolc/robovolc/install/robov/lib/python3.8/site-packages/robov-0.0.0-py3.8.egg-info
+[0.767s] running install_scripts
+[0.782s] Installing commander script to /home/kenan/robovolc/robovolc/install/robov/lib/robov
+[0.782s] Installing listener script to /home/kenan/robovolc/robovolc/install/robov/lib/robov
+[0.782s] Installing talker script to /home/kenan/robovolc/robovolc/install/robov/lib/robov
+[0.782s] writing list of installed files to '/home/kenan/robovolc/robovolc/build/robov/install.log'
+[0.801s] Invoked command in '/home/kenan/robovolc/robovolc/src/robov' returned '0': PYTHONPATH=/home/kenan/robovolc/robovolc/install/robov/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robov build --build-base /home/kenan/robovolc/robovolc/build/robov/build install --prefix /home/kenan/robovolc/robovolc/install/robov --record /home/kenan/robovolc/robovolc/build/robov/install.log --single-version-externally-managed

@@ -1,0 +1,30 @@
+[0.550s] Invoking command in '/home/kenan/robovolc/robovolc/src/robov': PYTHONPATH=/home/kenan/robovolc/robovolc/install/robov/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robov build --build-base /home/kenan/robovolc/robovolc/build/robov/build install --prefix /home/kenan/robovolc/robovolc/install/robov --record /home/kenan/robovolc/robovolc/build/robov/install.log --single-version-externally-managed
+[0.740s] running egg_info
+[0.740s] writing ../../build/robov/robov.egg-info/PKG-INFO
+[0.741s] writing dependency_links to ../../build/robov/robov.egg-info/dependency_links.txt
+[0.741s] writing entry points to ../../build/robov/robov.egg-info/entry_points.txt
+[0.741s] writing requirements to ../../build/robov/robov.egg-info/requires.txt
+[0.741s] writing top-level names to ../../build/robov/robov.egg-info/top_level.txt
+[0.771s] reading manifest file '../../build/robov/robov.egg-info/SOURCES.txt'
+[0.771s] writing manifest file '../../build/robov/robov.egg-info/SOURCES.txt'
+[0.772s] running build
+[0.772s] running build_py
+[0.772s] copying robov/commander.py -> /home/kenan/robovolc/robovolc/build/robov/build/lib/robov
+[0.772s] running install
+[0.772s] running install_lib
+[0.773s] copying /home/kenan/robovolc/robovolc/build/robov/build/lib/robov/commander.py -> /home/kenan/robovolc/robovolc/install/robov/lib/python3.8/site-packages/robov
+[0.774s] byte-compiling /home/kenan/robovolc/robovolc/install/robov/lib/python3.8/site-packages/robov/commander.py to commander.cpython-38.pyc
+[0.775s] running install_data
+[0.775s] running install_egg_info
+[0.777s] removing '/home/kenan/robovolc/robovolc/install/robov/lib/python3.8/site-packages/robov-0.0.0-py3.8.egg-info' (and everything under it)
+[0.777s] error removing /home/kenan/robovolc/robovolc/install/robov/lib/python3.8/site-packages/robov-0.0.0-py3.8.egg-info: [Errno 13] Permission denied: '/home/kenan/robovolc/robovolc/install/robov/lib/python3.8/site-packages/robov-0.0.0-py3.8.egg-info/dependency_links.txt'
+[0.777s] Copying ../../build/robov/robov.egg-info to /home/kenan/robovolc/robovolc/install/robov/lib/python3.8/site-packages/robov-0.0.0-py3.8.egg-info
+[0.777s] error removing /home/kenan/robovolc/robovolc/install/robov/lib/python3.8/site-packages/robov-0.0.0-py3.8.egg-info: [Errno 13] Permission denied: '/home/kenan/robovolc/robovolc/install/robov/lib/python3.8/site-packages/robov-0.0.0-py3.8.egg-info/SOURCES.txt'
+[0.777s] error removing /home/kenan/robovolc/robovolc/install/robov/lib/python3.8/site-packages/robov-0.0.0-py3.8.egg-info: [Errno 13] Permission denied: '/home/kenan/robovolc/robovolc/install/robov/lib/python3.8/site-packages/robov-0.0.0-py3.8.egg-info/entry_points.txt'
+[0.777s] error removing /home/kenan/robovolc/robovolc/install/robov/lib/python3.8/site-packages/robov-0.0.0-py3.8.egg-info: [Errno 13] Permission denied: '/home/kenan/robovolc/robovolc/install/robov/lib/python3.8/site-packages/robov-0.0.0-py3.8.egg-info/top_level.txt'
+[0.777s] error removing /home/kenan/robovolc/robovolc/install/robov/lib/python3.8/site-packages/robov-0.0.0-py3.8.egg-info: [Errno 13] Permission denied: '/home/kenan/robovolc/robovolc/install/robov/lib/python3.8/site-packages/robov-0.0.0-py3.8.egg-info/zip-safe'
+[0.778s] error removing /home/kenan/robovolc/robovolc/install/robov/lib/python3.8/site-packages/robov-0.0.0-py3.8.egg-info: [Errno 13] Permission denied: '/home/kenan/robovolc/robovolc/install/robov/lib/python3.8/site-packages/robov-0.0.0-py3.8.egg-info/requires.txt'
+[0.778s] error removing /home/kenan/robovolc/robovolc/install/robov/lib/python3.8/site-packages/robov-0.0.0-py3.8.egg-info: [Errno 13] Permission denied: '/home/kenan/robovolc/robovolc/install/robov/lib/python3.8/site-packages/robov-0.0.0-py3.8.egg-info/PKG-INFO'
+[0.778s] error removing /home/kenan/robovolc/robovolc/install/robov/lib/python3.8/site-packages/robov-0.0.0-py3.8.egg-info: [Errno 39] Directory not empty: '/home/kenan/robovolc/robovolc/install/robov/lib/python3.8/site-packages/robov-0.0.0-py3.8.egg-info'
+[0.778s] error: [Errno 13] Permission denied: '/home/kenan/robovolc/robovolc/install/robov/lib/python3.8/site-packages/robov-0.0.0-py3.8.egg-info/dependency_links.txt'
+[0.796s] Invoked command in '/home/kenan/robovolc/robovolc/src/robov' returned '1': PYTHONPATH=/home/kenan/robovolc/robovolc/install/robov/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robov build --build-base /home/kenan/robovolc/robovolc/build/robov/build install --prefix /home/kenan/robovolc/robovolc/install/robov --record /home/kenan/robovolc/robovolc/build/robov/install.log --single-version-externally-managed

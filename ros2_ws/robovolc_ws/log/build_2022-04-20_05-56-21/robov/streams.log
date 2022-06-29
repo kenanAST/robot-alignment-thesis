@@ -1,0 +1,25 @@
+[0.546s] Invoking command in '/home/kenan/robovolc/robovolc/src/robov': PYTHONPATH=/home/kenan/robovolc/robovolc/install/robov/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robov build --build-base /home/kenan/robovolc/robovolc/build/robov/build install --prefix /home/kenan/robovolc/robovolc/install/robov --record /home/kenan/robovolc/robovolc/build/robov/install.log --single-version-externally-managed
+[0.736s] running egg_info
+[0.736s] writing ../../build/robov/robov.egg-info/PKG-INFO
+[0.736s] writing dependency_links to ../../build/robov/robov.egg-info/dependency_links.txt
+[0.736s] writing entry points to ../../build/robov/robov.egg-info/entry_points.txt
+[0.737s] writing requirements to ../../build/robov/robov.egg-info/requires.txt
+[0.737s] writing top-level names to ../../build/robov/robov.egg-info/top_level.txt
+[0.766s] reading manifest file '../../build/robov/robov.egg-info/SOURCES.txt'
+[0.766s] writing manifest file '../../build/robov/robov.egg-info/SOURCES.txt'
+[0.766s] running build
+[0.767s] running build_py
+[0.767s] running install
+[0.767s] running install_lib
+[0.769s] byte-compiling /home/kenan/robovolc/robovolc/install/robov/lib/python3.8/site-packages/robov/commander.py to commander.cpython-38.pyc
+[0.769s] Sorry: IndentationError: expected an indented block (commander.py, line 32)
+[0.770s] running install_data
+[0.770s] running install_egg_info
+[0.771s] removing '/home/kenan/robovolc/robovolc/install/robov/lib/python3.8/site-packages/robov-0.0.0-py3.8.egg-info' (and everything under it)
+[0.771s] Copying ../../build/robov/robov.egg-info to /home/kenan/robovolc/robovolc/install/robov/lib/python3.8/site-packages/robov-0.0.0-py3.8.egg-info
+[0.772s] running install_scripts
+[0.786s] Installing commander script to /home/kenan/robovolc/robovolc/install/robov/lib/robov
+[0.786s] Installing listener script to /home/kenan/robovolc/robovolc/install/robov/lib/robov
+[0.786s] Installing talker script to /home/kenan/robovolc/robovolc/install/robov/lib/robov
+[0.786s] writing list of installed files to '/home/kenan/robovolc/robovolc/build/robov/install.log'
+[0.806s] Invoked command in '/home/kenan/robovolc/robovolc/src/robov' returned '0': PYTHONPATH=/home/kenan/robovolc/robovolc/install/robov/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robov build --build-base /home/kenan/robovolc/robovolc/build/robov/build install --prefix /home/kenan/robovolc/robovolc/install/robov --record /home/kenan/robovolc/robovolc/build/robov/install.log --single-version-externally-managed

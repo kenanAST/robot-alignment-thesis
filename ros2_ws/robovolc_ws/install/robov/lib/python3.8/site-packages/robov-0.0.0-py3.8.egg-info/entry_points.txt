@@ -1,0 +1,5 @@
+[console_scripts]
+commander = robov.commander:main
+listener = robov.subscriber_member_function:main
+talker = robov.publisher_member_function:main
+

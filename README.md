@@ -1,5 +1,5 @@
 <div>
-  <img width="80" align="left" src="https://i.pinimg.com/originals/61/5a/8d/615a8d971da45161d9ef0e04640d3599.png"/>
+  <img width="280" align="left" src="https://i.pinimg.com/originals/61/5a/8d/615a8d971da45161d9ef0e04640d3599.png"/>
   <h1>Computer Vision Unmanned Robot Vertical Alignment</h1>
   <p>Gazebo simulation environment provides a safe place to test robotic systems and algorithms, reducing the time and cost of development. The researchers implemented domain randomization and style transfer in LIRS World Construction Tool to generate Gazebo worlds to emulate the real-world setting automatically. UGV specifications are divided into functional components such as differential drive and sensor inputs, which are directly interfaced into ROS2.
 

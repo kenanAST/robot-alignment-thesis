@@ -1,0 +1,26 @@
+[0.509s] Invoking command in '/home/kenan/practice1_ws/src/publisher_python': PYTHONPATH=/home/kenan/practice1_ws/install/publisher_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/publisher_python build --build-base /home/kenan/practice1_ws/build/publisher_python/build install --prefix /home/kenan/practice1_ws/install/publisher_python --record /home/kenan/practice1_ws/build/publisher_python/install.log --single-version-externally-managed
+[0.697s] running egg_info
+[0.698s] writing ../../build/publisher_python/publisher_python.egg-info/PKG-INFO
+[0.698s] writing dependency_links to ../../build/publisher_python/publisher_python.egg-info/dependency_links.txt
+[0.698s] writing entry points to ../../build/publisher_python/publisher_python.egg-info/entry_points.txt
+[0.699s] writing requirements to ../../build/publisher_python/publisher_python.egg-info/requires.txt
+[0.699s] writing top-level names to ../../build/publisher_python/publisher_python.egg-info/top_level.txt
+[0.727s] reading manifest file '../../build/publisher_python/publisher_python.egg-info/SOURCES.txt'
+[0.728s] writing manifest file '../../build/publisher_python/publisher_python.egg-info/SOURCES.txt'
+[0.728s] running build
+[0.728s] running build_py
+[0.728s] copying publisher_python/subscriber.py -> /home/kenan/practice1_ws/build/publisher_python/build/lib/publisher_python
+[0.728s] running install
+[0.729s] running install_lib
+[0.729s] copying /home/kenan/practice1_ws/build/publisher_python/build/lib/publisher_python/subscriber.py -> /home/kenan/practice1_ws/install/publisher_python/lib/python3.8/site-packages/publisher_python
+[0.730s] byte-compiling /home/kenan/practice1_ws/install/publisher_python/lib/python3.8/site-packages/publisher_python/subscriber.py to subscriber.cpython-38.pyc
+[0.731s] running install_data
+[0.732s] copying package.xml -> /home/kenan/practice1_ws/install/publisher_python/share/publisher_python
+[0.732s] running install_egg_info
+[0.733s] removing '/home/kenan/practice1_ws/install/publisher_python/lib/python3.8/site-packages/publisher_python-0.0.0-py3.8.egg-info' (and everything under it)
+[0.733s] Copying ../../build/publisher_python/publisher_python.egg-info to /home/kenan/practice1_ws/install/publisher_python/lib/python3.8/site-packages/publisher_python-0.0.0-py3.8.egg-info
+[0.734s] running install_scripts
+[0.747s] Installing listener script to /home/kenan/practice1_ws/install/publisher_python/lib/publisher-python
+[0.747s] Installing talker script to /home/kenan/practice1_ws/install/publisher_python/lib/publisher-python
+[0.747s] writing list of installed files to '/home/kenan/practice1_ws/build/publisher_python/install.log'
+[0.762s] Invoked command in '/home/kenan/practice1_ws/src/publisher_python' returned '0': PYTHONPATH=/home/kenan/practice1_ws/install/publisher_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/publisher_python build --build-base /home/kenan/practice1_ws/build/publisher_python/build install --prefix /home/kenan/practice1_ws/install/publisher_python --record /home/kenan/practice1_ws/build/publisher_python/install.log --single-version-externally-managed

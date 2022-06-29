@@ -1,0 +1,21 @@
+[0.729s] Invoking command in '/home/kenan/practice1_ws/src/publisher_python': PYTHONPATH=/home/kenan/practice1_ws/install/publisher_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/publisher_python build --build-base /home/kenan/practice1_ws/build/publisher_python/build install --prefix /home/kenan/practice1_ws/install/publisher_python --record /home/kenan/practice1_ws/build/publisher_python/install.log --single-version-externally-managed
+[0.909s] running egg_info
+[0.910s] writing ../../build/publisher_python/publisher_python.egg-info/PKG-INFO
+[0.910s] writing dependency_links to ../../build/publisher_python/publisher_python.egg-info/dependency_links.txt
+[0.910s] writing entry points to ../../build/publisher_python/publisher_python.egg-info/entry_points.txt
+[0.910s] writing requirements to ../../build/publisher_python/publisher_python.egg-info/requires.txt
+[0.910s] writing top-level names to ../../build/publisher_python/publisher_python.egg-info/top_level.txt
+[0.940s] reading manifest file '../../build/publisher_python/publisher_python.egg-info/SOURCES.txt'
+[0.940s] writing manifest file '../../build/publisher_python/publisher_python.egg-info/SOURCES.txt'
+[0.940s] running build
+[0.941s] running build_py
+[0.941s] running install
+[0.941s] running install_lib
+[0.942s] running install_data
+[0.943s] running install_egg_info
+[0.944s] removing '/home/kenan/practice1_ws/install/publisher_python/lib/python3.8/site-packages/publisher_python-0.0.0-py3.8.egg-info' (and everything under it)
+[0.944s] Copying ../../build/publisher_python/publisher_python.egg-info to /home/kenan/practice1_ws/install/publisher_python/lib/python3.8/site-packages/publisher_python-0.0.0-py3.8.egg-info
+[0.945s] running install_scripts
+[0.959s] Installing listener script to /home/kenan/practice1_ws/install/publisher_python/lib/publisher-python
+[0.959s] Installing talker script to /home/kenan/practice1_ws/install/publisher_python/lib/publisher-python
+[0.959s] writing list of installed files to '/home/kenan/practice1_ws/build/publisher_python/install.log'

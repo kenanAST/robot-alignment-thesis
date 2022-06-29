@@ -1,0 +1,33 @@
+[2.188s] Invoking command in '/home/kenan/practice1_ws/publisher_py': PYTHONPATH=/home/kenan/practice1_ws/install/publisher_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/publisher_py build --build-base /home/kenan/practice1_ws/build/publisher_py/build install --prefix /home/kenan/practice1_ws/install/publisher_py --record /home/kenan/practice1_ws/build/publisher_py/install.log --single-version-externally-managed
+[2.374s] running egg_info
+[2.374s] creating ../build/publisher_py/publisher_py.egg-info
+[2.375s] writing ../build/publisher_py/publisher_py.egg-info/PKG-INFO
+[2.375s] writing dependency_links to ../build/publisher_py/publisher_py.egg-info/dependency_links.txt
+[2.375s] writing entry points to ../build/publisher_py/publisher_py.egg-info/entry_points.txt
+[2.375s] writing requirements to ../build/publisher_py/publisher_py.egg-info/requires.txt
+[2.375s] writing top-level names to ../build/publisher_py/publisher_py.egg-info/top_level.txt
+[2.419s] writing manifest file '../build/publisher_py/publisher_py.egg-info/SOURCES.txt'
+[2.471s] reading manifest file '../build/publisher_py/publisher_py.egg-info/SOURCES.txt'
+[2.471s] writing manifest file '../build/publisher_py/publisher_py.egg-info/SOURCES.txt'
+[2.471s] running build
+[2.472s] running build_py
+[2.472s] creating /home/kenan/practice1_ws/build/publisher_py/build
+[2.472s] creating /home/kenan/practice1_ws/build/publisher_py/build/lib
+[2.472s] creating /home/kenan/practice1_ws/build/publisher_py/build/lib/publisher_py
+[2.472s] copying publisher_py/__init__.py -> /home/kenan/practice1_ws/build/publisher_py/build/lib/publisher_py
+[2.472s] running install
+[2.472s] running install_lib
+[2.473s] creating /home/kenan/practice1_ws/install/publisher_py/lib/python3.8/site-packages/publisher_py
+[2.473s] copying /home/kenan/practice1_ws/build/publisher_py/build/lib/publisher_py/__init__.py -> /home/kenan/practice1_ws/install/publisher_py/lib/python3.8/site-packages/publisher_py
+[2.474s] byte-compiling /home/kenan/practice1_ws/install/publisher_py/lib/python3.8/site-packages/publisher_py/__init__.py to __init__.cpython-38.pyc
+[2.474s] running install_data
+[2.475s] creating /home/kenan/practice1_ws/install/publisher_py/share/ament_index
+[2.475s] creating /home/kenan/practice1_ws/install/publisher_py/share/ament_index/resource_index
+[2.475s] creating /home/kenan/practice1_ws/install/publisher_py/share/ament_index/resource_index/packages
+[2.475s] copying resource/publisher_py -> /home/kenan/practice1_ws/install/publisher_py/share/ament_index/resource_index/packages
+[2.475s] copying package.xml -> /home/kenan/practice1_ws/install/publisher_py/share/publisher_py
+[2.475s] running install_egg_info
+[2.476s] Copying ../build/publisher_py/publisher_py.egg-info to /home/kenan/practice1_ws/install/publisher_py/lib/python3.8/site-packages/publisher_py-0.0.0-py3.8.egg-info
+[2.477s] running install_scripts
+[2.490s] writing list of installed files to '/home/kenan/practice1_ws/build/publisher_py/install.log'
+[2.507s] Invoked command in '/home/kenan/practice1_ws/publisher_py' returned '0': PYTHONPATH=/home/kenan/practice1_ws/install/publisher_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/publisher_py build --build-base /home/kenan/practice1_ws/build/publisher_py/build install --prefix /home/kenan/practice1_ws/install/publisher_py --record /home/kenan/practice1_ws/build/publisher_py/install.log --single-version-externally-managed

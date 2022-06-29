@@ -1,0 +1,5 @@
+[console_scripts]
+commander = py_pysub.commander:main
+listener = py_pysub.subscriber_member_function:main
+talker = py_pysub.publisher_member_function:main
+

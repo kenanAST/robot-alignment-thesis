@@ -1,0 +1,26 @@
+[0.457s] Invoking command in '/home/kenan/practice1_ws/src/py_pysub': PYTHONPATH=/home/kenan/practice1_ws/install/py_pysub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pysub build --build-base /home/kenan/practice1_ws/build/py_pysub/build install --prefix /home/kenan/practice1_ws/install/py_pysub --record /home/kenan/practice1_ws/build/py_pysub/install.log --single-version-externally-managed
+[0.612s] running egg_info
+[0.612s] writing ../../build/py_pysub/py_pysub.egg-info/PKG-INFO
+[0.612s] writing dependency_links to ../../build/py_pysub/py_pysub.egg-info/dependency_links.txt
+[0.613s] writing entry points to ../../build/py_pysub/py_pysub.egg-info/entry_points.txt
+[0.613s] writing requirements to ../../build/py_pysub/py_pysub.egg-info/requires.txt
+[0.613s] writing top-level names to ../../build/py_pysub/py_pysub.egg-info/top_level.txt
+[0.642s] reading manifest file '../../build/py_pysub/py_pysub.egg-info/SOURCES.txt'
+[0.643s] writing manifest file '../../build/py_pysub/py_pysub.egg-info/SOURCES.txt'
+[0.643s] running build
+[0.643s] running build_py
+[0.643s] copying py_pysub/commander.py -> /home/kenan/practice1_ws/build/py_pysub/build/lib/py_pysub
+[0.643s] running install
+[0.644s] running install_lib
+[0.645s] copying /home/kenan/practice1_ws/build/py_pysub/build/lib/py_pysub/commander.py -> /home/kenan/practice1_ws/install/py_pysub/lib/python3.8/site-packages/py_pysub
+[0.645s] byte-compiling /home/kenan/practice1_ws/install/py_pysub/lib/python3.8/site-packages/py_pysub/commander.py to commander.cpython-38.pyc
+[0.646s] running install_data
+[0.647s] running install_egg_info
+[0.648s] removing '/home/kenan/practice1_ws/install/py_pysub/lib/python3.8/site-packages/py_pysub-0.0.0-py3.8.egg-info' (and everything under it)
+[0.648s] Copying ../../build/py_pysub/py_pysub.egg-info to /home/kenan/practice1_ws/install/py_pysub/lib/python3.8/site-packages/py_pysub-0.0.0-py3.8.egg-info
+[0.649s] running install_scripts
+[0.663s] Installing commander script to /home/kenan/practice1_ws/install/py_pysub/lib/py_pysub
+[0.663s] Installing listener script to /home/kenan/practice1_ws/install/py_pysub/lib/py_pysub
+[0.663s] Installing talker script to /home/kenan/practice1_ws/install/py_pysub/lib/py_pysub
+[0.663s] writing list of installed files to '/home/kenan/practice1_ws/build/py_pysub/install.log'
+[0.680s] Invoked command in '/home/kenan/practice1_ws/src/py_pysub' returned '0': PYTHONPATH=/home/kenan/practice1_ws/install/py_pysub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pysub build --build-base /home/kenan/practice1_ws/build/py_pysub/build install --prefix /home/kenan/practice1_ws/install/py_pysub --record /home/kenan/practice1_ws/build/py_pysub/install.log --single-version-externally-managed

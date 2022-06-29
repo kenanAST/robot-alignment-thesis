@@ -1,0 +1,5 @@
+  File "/home/kenan/practice1_ws/install/py_pysub/lib/python3.8/site-packages/py_pysub/publisher_member_function.py", line 21
+    side.linear.x = 10.0w
+                        ^
+SyntaxError: invalid syntax
+

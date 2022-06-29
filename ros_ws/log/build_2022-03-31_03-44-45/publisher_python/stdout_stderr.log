@@ -1,0 +1,7 @@
+running egg_info
+writing ../../build/publisher_python/publisher_python.egg-info/PKG-INFO
+writing dependency_links to ../../build/publisher_python/publisher_python.egg-info/dependency_links.txt
+writing entry points to ../../build/publisher_python/publisher_python.egg-info/entry_points.txt
+writing requirements to ../../build/publisher_python/publisher_python.egg-info/requires.txt
+writing top-level names to ../../build/publisher_python/publisher_python.egg-info/top_level.txt
+error: package directory 'publisher-python' does not exist

@@ -1,0 +1,27 @@
+[0.540s] Invoking command in '/home/kenan/practice1_ws/src/py_pysub': PYTHONPATH=/home/kenan/practice1_ws/install/py_pysub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pysub build --build-base /home/kenan/practice1_ws/build/py_pysub/build install --prefix /home/kenan/practice1_ws/install/py_pysub --record /home/kenan/practice1_ws/build/py_pysub/install.log --single-version-externally-managed
+[0.728s] running egg_info
+[0.728s] writing ../../build/py_pysub/py_pysub.egg-info/PKG-INFO
+[0.728s] writing dependency_links to ../../build/py_pysub/py_pysub.egg-info/dependency_links.txt
+[0.729s] writing entry points to ../../build/py_pysub/py_pysub.egg-info/entry_points.txt
+[0.729s] writing requirements to ../../build/py_pysub/py_pysub.egg-info/requires.txt
+[0.729s] writing top-level names to ../../build/py_pysub/py_pysub.egg-info/top_level.txt
+[0.757s] reading manifest file '../../build/py_pysub/py_pysub.egg-info/SOURCES.txt'
+[0.758s] writing manifest file '../../build/py_pysub/py_pysub.egg-info/SOURCES.txt'
+[0.758s] running build
+[0.758s] running build_py
+[0.758s] running install
+[0.759s] running install_lib
+[0.760s] running install_data
+[0.760s] running install_egg_info
+[0.762s] removing '/home/kenan/practice1_ws/install/py_pysub/lib/python3.8/site-packages/py_pysub-0.0.0-py3.8.egg-info' (and everything under it)
+[0.762s] error removing /home/kenan/practice1_ws/install/py_pysub/lib/python3.8/site-packages/py_pysub-0.0.0-py3.8.egg-info: [Errno 13] Permission denied: '/home/kenan/practice1_ws/install/py_pysub/lib/python3.8/site-packages/py_pysub-0.0.0-py3.8.egg-info/dependency_links.txt'
+[0.762s] error removing /home/kenan/practice1_ws/install/py_pysub/lib/python3.8/site-packages/py_pysub-0.0.0-py3.8.egg-info: [Errno 13] Permission denied: '/home/kenan/practice1_ws/install/py_pysub/lib/python3.8/site-packages/py_pysub-0.0.0-py3.8.egg-info/SOURCES.txt'
+[0.762s] error removing /home/kenan/practice1_ws/install/py_pysub/lib/python3.8/site-packages/py_pysub-0.0.0-py3.8.egg-info: [Errno 13] Permission denied: '/home/kenan/practice1_ws/install/py_pysub/lib/python3.8/site-packages/py_pysub-0.0.0-py3.8.egg-info/entry_points.txt'
+[0.762s] error removing /home/kenan/practice1_ws/install/py_pysub/lib/python3.8/site-packages/py_pysub-0.0.0-py3.8.egg-info: [Errno 13] Permission denied: '/home/kenan/practice1_ws/install/py_pysub/lib/python3.8/site-packages/py_pysub-0.0.0-py3.8.egg-info/top_level.txt'
+[0.762s] error removing /home/kenan/practice1_ws/install/py_pysub/lib/python3.8/site-packages/py_pysub-0.0.0-py3.8.egg-info: [Errno 13] Permission denied: '/home/kenan/practice1_ws/install/py_pysub/lib/python3.8/site-packages/py_pysub-0.0.0-py3.8.egg-info/zip-safe'
+[0.762s] error removing /home/kenan/practice1_ws/install/py_pysub/lib/python3.8/site-packages/py_pysub-0.0.0-py3.8.egg-info: [Errno 13] Permission denied: '/home/kenan/practice1_ws/install/py_pysub/lib/python3.8/site-packages/py_pysub-0.0.0-py3.8.egg-info/requires.txt'
+[0.762s] error removing /home/kenan/practice1_ws/install/py_pysub/lib/python3.8/site-packages/py_pysub-0.0.0-py3.8.egg-info: [Errno 13] Permission denied: '/home/kenan/practice1_ws/install/py_pysub/lib/python3.8/site-packages/py_pysub-0.0.0-py3.8.egg-info/PKG-INFO'
+[0.762s] error removing /home/kenan/practice1_ws/install/py_pysub/lib/python3.8/site-packages/py_pysub-0.0.0-py3.8.egg-info: [Errno 39] Directory not empty: '/home/kenan/practice1_ws/install/py_pysub/lib/python3.8/site-packages/py_pysub-0.0.0-py3.8.egg-info'
+[0.762s] Copying ../../build/py_pysub/py_pysub.egg-info to /home/kenan/practice1_ws/install/py_pysub/lib/python3.8/site-packages/py_pysub-0.0.0-py3.8.egg-info
+[0.762s] error: [Errno 13] Permission denied: '/home/kenan/practice1_ws/install/py_pysub/lib/python3.8/site-packages/py_pysub-0.0.0-py3.8.egg-info/dependency_links.txt'
+[0.775s] Invoked command in '/home/kenan/practice1_ws/src/py_pysub' returned '1': PYTHONPATH=/home/kenan/practice1_ws/install/py_pysub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pysub build --build-base /home/kenan/practice1_ws/build/py_pysub/build install --prefix /home/kenan/practice1_ws/install/py_pysub --record /home/kenan/practice1_ws/build/py_pysub/install.log --single-version-externally-managed

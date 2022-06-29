@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sdf version='1.7'>
+  <model name="small_wall_1" static="true">
+    <link name="small_wall_1_link">
+        <origin pose="0 0 0 0 0 0"/>
+        <collision name="small_wall_1_collision">
+            <geometry>
+                <mesh filename="road.dae" scale="1 1 1"/>
+            </geometry>
+        </collision>
+        <visual name="small_wall_1_visual" cast_shadows="false">
+            <geometry>
+                <mesh filename="road.dae" scale="1 1 1"/>
+            </geometry>
+        </visual>
+      </link>
+  </model>
+</sdf>

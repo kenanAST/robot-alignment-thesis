@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/py_pysub/py_pysub.egg-info/PKG-INFO
+writing dependency_links to ../../build/py_pysub/py_pysub.egg-info/dependency_links.txt
+writing entry points to ../../build/py_pysub/py_pysub.egg-info/entry_points.txt
+writing requirements to ../../build/py_pysub/py_pysub.egg-info/requires.txt
+writing top-level names to ../../build/py_pysub/py_pysub.egg-info/top_level.txt
+reading manifest file '../../build/py_pysub/py_pysub.egg-info/SOURCES.txt'
+writing manifest file '../../build/py_pysub/py_pysub.egg-info/SOURCES.txt'
+running build
+running build_py
+copying py_pysub/publisher_member_function.py -> /home/kenan/practice1_ws/build/py_pysub/build/lib/py_pysub
+copying py_pysub/subscriber_member_function.py -> /home/kenan/practice1_ws/build/py_pysub/build/lib/py_pysub
+running install
+running install_lib
+copying /home/kenan/practice1_ws/build/py_pysub/build/lib/py_pysub/publisher_member_function.py -> /home/kenan/practice1_ws/install/py_pysub/lib/python3.8/site-packages/py_pysub
+copying /home/kenan/practice1_ws/build/py_pysub/build/lib/py_pysub/subscriber_member_function.py -> /home/kenan/practice1_ws/install/py_pysub/lib/python3.8/site-packages/py_pysub
+byte-compiling /home/kenan/practice1_ws/install/py_pysub/lib/python3.8/site-packages/py_pysub/publisher_member_function.py to publisher_member_function.cpython-38.pyc
+byte-compiling /home/kenan/practice1_ws/install/py_pysub/lib/python3.8/site-packages/py_pysub/subscriber_member_function.py to subscriber_member_function.cpython-38.pyc
+running install_data
+copying package.xml -> /home/kenan/practice1_ws/install/py_pysub/share/py_pysub
+running install_egg_info
+removing '/home/kenan/practice1_ws/install/py_pysub/lib/python3.8/site-packages/py_pysub-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/py_pysub/py_pysub.egg-info to /home/kenan/practice1_ws/install/py_pysub/lib/python3.8/site-packages/py_pysub-0.0.0-py3.8.egg-info
+running install_scripts
+Installing listener script to /home/kenan/practice1_ws/install/py_pysub/lib/py_pysub
+Installing talker script to /home/kenan/practice1_ws/install/py_pysub/lib/py_pysub
+writing list of installed files to '/home/kenan/practice1_ws/build/py_pysub/install.log'

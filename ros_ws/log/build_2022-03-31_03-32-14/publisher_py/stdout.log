@@ -1,0 +1,31 @@
+running egg_info
+creating ../build/publisher_py/publisher_py.egg-info
+writing ../build/publisher_py/publisher_py.egg-info/PKG-INFO
+writing dependency_links to ../build/publisher_py/publisher_py.egg-info/dependency_links.txt
+writing entry points to ../build/publisher_py/publisher_py.egg-info/entry_points.txt
+writing requirements to ../build/publisher_py/publisher_py.egg-info/requires.txt
+writing top-level names to ../build/publisher_py/publisher_py.egg-info/top_level.txt
+writing manifest file '../build/publisher_py/publisher_py.egg-info/SOURCES.txt'
+reading manifest file '../build/publisher_py/publisher_py.egg-info/SOURCES.txt'
+writing manifest file '../build/publisher_py/publisher_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kenan/practice1_ws/build/publisher_py/build
+creating /home/kenan/practice1_ws/build/publisher_py/build/lib
+creating /home/kenan/practice1_ws/build/publisher_py/build/lib/publisher_py
+copying publisher_py/__init__.py -> /home/kenan/practice1_ws/build/publisher_py/build/lib/publisher_py
+running install
+running install_lib
+creating /home/kenan/practice1_ws/install/publisher_py/lib/python3.8/site-packages/publisher_py
+copying /home/kenan/practice1_ws/build/publisher_py/build/lib/publisher_py/__init__.py -> /home/kenan/practice1_ws/install/publisher_py/lib/python3.8/site-packages/publisher_py
+byte-compiling /home/kenan/practice1_ws/install/publisher_py/lib/python3.8/site-packages/publisher_py/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/kenan/practice1_ws/install/publisher_py/share/ament_index
+creating /home/kenan/practice1_ws/install/publisher_py/share/ament_index/resource_index
+creating /home/kenan/practice1_ws/install/publisher_py/share/ament_index/resource_index/packages
+copying resource/publisher_py -> /home/kenan/practice1_ws/install/publisher_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/kenan/practice1_ws/install/publisher_py/share/publisher_py
+running install_egg_info
+Copying ../build/publisher_py/publisher_py.egg-info to /home/kenan/practice1_ws/install/publisher_py/lib/python3.8/site-packages/publisher_py-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/kenan/practice1_ws/build/publisher_py/install.log'

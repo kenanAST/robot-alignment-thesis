@@ -1,0 +1,8 @@
+{
+    "controls":{
+       "left": "enabled",
+       "right": "enabled",
+       "up": "enabled",
+       "down": "enabled"
+    }
+}

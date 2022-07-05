@@ -1,0 +1,45 @@
+[1.933s] Invoking command in '/media/kenan/kenan-acads/thesis/robot-alignment-thesis/ros2_ws/robovolc_ws/src/robov': PYTHONPATH=/media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/robov/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/robov build --build-base /media/kenan/kenan-acads/thesis/robot-alignment-thesis/build/robov/build install --prefix /media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/robov --record /media/kenan/kenan-acads/thesis/robot-alignment-thesis/build/robov/install.log --single-version-externally-managed
+[2.125s] running egg_info
+[2.125s] creating ../../../../build/robov/robov.egg-info
+[2.130s] writing ../../../../build/robov/robov.egg-info/PKG-INFO
+[2.130s] writing dependency_links to ../../../../build/robov/robov.egg-info/dependency_links.txt
+[2.131s] writing entry points to ../../../../build/robov/robov.egg-info/entry_points.txt
+[2.131s] writing requirements to ../../../../build/robov/robov.egg-info/requires.txt
+[2.131s] writing top-level names to ../../../../build/robov/robov.egg-info/top_level.txt
+[2.168s] writing manifest file '../../../../build/robov/robov.egg-info/SOURCES.txt'
+[2.212s] reading manifest file '../../../../build/robov/robov.egg-info/SOURCES.txt'
+[2.294s] writing manifest file '../../../../build/robov/robov.egg-info/SOURCES.txt'
+[2.295s] running build
+[2.295s] running build_py
+[2.296s] creating /media/kenan/kenan-acads/thesis/robot-alignment-thesis/build/robov/build
+[2.296s] creating /media/kenan/kenan-acads/thesis/robot-alignment-thesis/build/robov/build/lib
+[2.296s] creating /media/kenan/kenan-acads/thesis/robot-alignment-thesis/build/robov/build/lib/robov
+[2.297s] copying robov/commander.py -> /media/kenan/kenan-acads/thesis/robot-alignment-thesis/build/robov/build/lib/robov
+[2.297s] copying robov/publisher_member_function.py -> /media/kenan/kenan-acads/thesis/robot-alignment-thesis/build/robov/build/lib/robov
+[2.299s] copying robov/subscriber_member_function.py -> /media/kenan/kenan-acads/thesis/robot-alignment-thesis/build/robov/build/lib/robov
+[2.300s] copying robov/__init__.py -> /media/kenan/kenan-acads/thesis/robot-alignment-thesis/build/robov/build/lib/robov
+[2.301s] running install
+[2.302s] running install_lib
+[2.303s] creating /media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/robov/lib/python3.8/site-packages/robov
+[2.304s] copying /media/kenan/kenan-acads/thesis/robot-alignment-thesis/build/robov/build/lib/robov/commander.py -> /media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/robov/lib/python3.8/site-packages/robov
+[2.305s] copying /media/kenan/kenan-acads/thesis/robot-alignment-thesis/build/robov/build/lib/robov/publisher_member_function.py -> /media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/robov/lib/python3.8/site-packages/robov
+[2.306s] copying /media/kenan/kenan-acads/thesis/robot-alignment-thesis/build/robov/build/lib/robov/subscriber_member_function.py -> /media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/robov/lib/python3.8/site-packages/robov
+[2.307s] copying /media/kenan/kenan-acads/thesis/robot-alignment-thesis/build/robov/build/lib/robov/__init__.py -> /media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/robov/lib/python3.8/site-packages/robov
+[2.309s] byte-compiling /media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/robov/lib/python3.8/site-packages/robov/commander.py to commander.cpython-38.pyc
+[2.313s] byte-compiling /media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/robov/lib/python3.8/site-packages/robov/publisher_member_function.py to publisher_member_function.cpython-38.pyc
+[2.314s] byte-compiling /media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/robov/lib/python3.8/site-packages/robov/subscriber_member_function.py to subscriber_member_function.cpython-38.pyc
+[2.316s] byte-compiling /media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/robov/lib/python3.8/site-packages/robov/__init__.py to __init__.cpython-38.pyc
+[2.317s] running install_data
+[2.318s] creating /media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/robov/share/ament_index
+[2.319s] creating /media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/robov/share/ament_index/resource_index
+[2.319s] creating /media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/robov/share/ament_index/resource_index/packages
+[2.319s] copying resource/robov -> /media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/robov/share/ament_index/resource_index/packages
+[2.320s] copying package.xml -> /media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/robov/share/robov
+[2.321s] running install_egg_info
+[2.323s] Copying ../../../../build/robov/robov.egg-info to /media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/robov/lib/python3.8/site-packages/robov-0.0.0-py3.8.egg-info
+[2.333s] running install_scripts
+[2.354s] Installing commander script to /media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/robov/lib/robov
+[2.354s] Installing listener script to /media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/robov/lib/robov
+[2.355s] Installing talker script to /media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/robov/lib/robov
+[2.355s] writing list of installed files to '/media/kenan/kenan-acads/thesis/robot-alignment-thesis/build/robov/install.log'
+[2.375s] Invoked command in '/media/kenan/kenan-acads/thesis/robot-alignment-thesis/ros2_ws/robovolc_ws/src/robov' returned '0': PYTHONPATH=/media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/robov/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/robov build --build-base /media/kenan/kenan-acads/thesis/robot-alignment-thesis/build/robov/build install --prefix /media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/robov --record /media/kenan/kenan-acads/thesis/robot-alignment-thesis/build/robov/install.log --single-version-externally-managed

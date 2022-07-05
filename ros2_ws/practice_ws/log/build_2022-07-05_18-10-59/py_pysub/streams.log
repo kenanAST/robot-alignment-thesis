@@ -1,0 +1,26 @@
+[0.604s] Invoking command in '/media/kenan/kenan-acads/thesis/robot-alignment-thesis/ros2_ws/practice_ws/src/py_pysub': PYTHONPATH=/media/kenan/kenan-acads/thesis/robot-alignment-thesis/ros2_ws/practice_ws/install/py_pysub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pysub build --build-base /media/kenan/kenan-acads/thesis/robot-alignment-thesis/ros2_ws/practice_ws/build/py_pysub/build install --prefix /media/kenan/kenan-acads/thesis/robot-alignment-thesis/ros2_ws/practice_ws/install/py_pysub --record /media/kenan/kenan-acads/thesis/robot-alignment-thesis/ros2_ws/practice_ws/build/py_pysub/install.log --single-version-externally-managed
+[0.887s] running egg_info
+[0.887s] writing ../../build/py_pysub/py_pysub.egg-info/PKG-INFO
+[0.888s] writing dependency_links to ../../build/py_pysub/py_pysub.egg-info/dependency_links.txt
+[0.888s] writing entry points to ../../build/py_pysub/py_pysub.egg-info/entry_points.txt
+[0.888s] writing requirements to ../../build/py_pysub/py_pysub.egg-info/requires.txt
+[0.888s] writing top-level names to ../../build/py_pysub/py_pysub.egg-info/top_level.txt
+[0.919s] reading manifest file '../../build/py_pysub/py_pysub.egg-info/SOURCES.txt'
+[0.921s] writing manifest file '../../build/py_pysub/py_pysub.egg-info/SOURCES.txt'
+[0.922s] running build
+[0.922s] running build_py
+[0.922s] copying py_pysub/publisher_member_function.py -> /media/kenan/kenan-acads/thesis/robot-alignment-thesis/ros2_ws/practice_ws/build/py_pysub/build/lib/py_pysub
+[0.924s] running install
+[0.925s] running install_lib
+[0.927s] copying /media/kenan/kenan-acads/thesis/robot-alignment-thesis/ros2_ws/practice_ws/build/py_pysub/build/lib/py_pysub/publisher_member_function.py -> /media/kenan/kenan-acads/thesis/robot-alignment-thesis/ros2_ws/practice_ws/install/py_pysub/lib/python3.8/site-packages/py_pysub
+[0.929s] byte-compiling /media/kenan/kenan-acads/thesis/robot-alignment-thesis/ros2_ws/practice_ws/install/py_pysub/lib/python3.8/site-packages/py_pysub/publisher_member_function.py to publisher_member_function.cpython-38.pyc
+[0.932s] running install_data
+[0.933s] running install_egg_info
+[0.935s] removing '/media/kenan/kenan-acads/thesis/robot-alignment-thesis/ros2_ws/practice_ws/install/py_pysub/lib/python3.8/site-packages/py_pysub-0.0.0-py3.8.egg-info' (and everything under it)
+[0.937s] Copying ../../build/py_pysub/py_pysub.egg-info to /media/kenan/kenan-acads/thesis/robot-alignment-thesis/ros2_ws/practice_ws/install/py_pysub/lib/python3.8/site-packages/py_pysub-0.0.0-py3.8.egg-info
+[0.952s] running install_scripts
+[0.968s] Installing commander script to /media/kenan/kenan-acads/thesis/robot-alignment-thesis/ros2_ws/practice_ws/install/py_pysub/lib/py_pysub
+[0.968s] Installing listener script to /media/kenan/kenan-acads/thesis/robot-alignment-thesis/ros2_ws/practice_ws/install/py_pysub/lib/py_pysub
+[0.969s] Installing talker script to /media/kenan/kenan-acads/thesis/robot-alignment-thesis/ros2_ws/practice_ws/install/py_pysub/lib/py_pysub
+[0.969s] writing list of installed files to '/media/kenan/kenan-acads/thesis/robot-alignment-thesis/ros2_ws/practice_ws/build/py_pysub/install.log'
+[0.985s] Invoked command in '/media/kenan/kenan-acads/thesis/robot-alignment-thesis/ros2_ws/practice_ws/src/py_pysub' returned '0': PYTHONPATH=/media/kenan/kenan-acads/thesis/robot-alignment-thesis/ros2_ws/practice_ws/install/py_pysub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pysub build --build-base /media/kenan/kenan-acads/thesis/robot-alignment-thesis/ros2_ws/practice_ws/build/py_pysub/build install --prefix /media/kenan/kenan-acads/thesis/robot-alignment-thesis/ros2_ws/practice_ws/install/py_pysub --record /media/kenan/kenan-acads/thesis/robot-alignment-thesis/ros2_ws/practice_ws/build/py_pysub/install.log --single-version-externally-managed

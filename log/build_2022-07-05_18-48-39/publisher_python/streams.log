@@ -1,0 +1,22 @@
+[0.740s] Invoking command in '/media/kenan/kenan-acads/thesis/robot-alignment-thesis/ros2_ws/practice_ws/src/publisher_python': PYTHONPATH=/media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/publisher_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/publisher_python build --build-base /media/kenan/kenan-acads/thesis/robot-alignment-thesis/build/publisher_python/build install --prefix /media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/publisher_python --record /media/kenan/kenan-acads/thesis/robot-alignment-thesis/build/publisher_python/install.log --single-version-externally-managed
+[0.994s] running egg_info
+[0.996s] writing ../../../../build/publisher_python/publisher_python.egg-info/PKG-INFO
+[0.996s] writing dependency_links to ../../../../build/publisher_python/publisher_python.egg-info/dependency_links.txt
+[0.997s] writing entry points to ../../../../build/publisher_python/publisher_python.egg-info/entry_points.txt
+[0.997s] writing requirements to ../../../../build/publisher_python/publisher_python.egg-info/requires.txt
+[0.998s] writing top-level names to ../../../../build/publisher_python/publisher_python.egg-info/top_level.txt
+[1.036s] reading manifest file '../../../../build/publisher_python/publisher_python.egg-info/SOURCES.txt'
+[1.042s] writing manifest file '../../../../build/publisher_python/publisher_python.egg-info/SOURCES.txt'
+[1.042s] running build
+[1.043s] running build_py
+[1.045s] running install
+[1.046s] running install_lib
+[1.052s] running install_data
+[1.056s] running install_egg_info
+[1.058s] removing '/media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/publisher_python/lib/python3.8/site-packages/publisher_python-0.0.0-py3.8.egg-info' (and everything under it)
+[1.060s] Copying ../../../../build/publisher_python/publisher_python.egg-info to /media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/publisher_python/lib/python3.8/site-packages/publisher_python-0.0.0-py3.8.egg-info
+[1.071s] running install_scripts
+[1.091s] Installing listener script to /media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/publisher_python/lib/publisher-python
+[1.092s] Installing talker script to /media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/publisher_python/lib/publisher-python
+[1.092s] writing list of installed files to '/media/kenan/kenan-acads/thesis/robot-alignment-thesis/build/publisher_python/install.log'
+[1.127s] Invoked command in '/media/kenan/kenan-acads/thesis/robot-alignment-thesis/ros2_ws/practice_ws/src/publisher_python' returned '0': PYTHONPATH=/media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/publisher_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/publisher_python build --build-base /media/kenan/kenan-acads/thesis/robot-alignment-thesis/build/publisher_python/build install --prefix /media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/publisher_python --record /media/kenan/kenan-acads/thesis/robot-alignment-thesis/build/publisher_python/install.log --single-version-externally-managed

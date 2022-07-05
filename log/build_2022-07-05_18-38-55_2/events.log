@@ -1,0 +1,5 @@
+[0.000000] (-) TimerEvent: {}
+[0.000097] (-) JobUnselected: {'identifier': 'publisher_python'}
+[0.000145] (-) JobUnselected: {'identifier': 'py_pysub'}
+[0.000207] (-) JobUnselected: {'identifier': 'robov'}
+[0.000307] (-) EventReactorShutdown: {}

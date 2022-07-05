@@ -1,0 +1,39 @@
+running egg_info
+creating ../../../../build/publisher_python/publisher_python.egg-info
+writing ../../../../build/publisher_python/publisher_python.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/publisher_python/publisher_python.egg-info/dependency_links.txt
+writing entry points to ../../../../build/publisher_python/publisher_python.egg-info/entry_points.txt
+writing requirements to ../../../../build/publisher_python/publisher_python.egg-info/requires.txt
+writing top-level names to ../../../../build/publisher_python/publisher_python.egg-info/top_level.txt
+writing manifest file '../../../../build/publisher_python/publisher_python.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/publisher_python/publisher_python.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/publisher_python/publisher_python.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /media/kenan/kenan-acads/thesis/robot-alignment-thesis/build/publisher_python/build
+creating /media/kenan/kenan-acads/thesis/robot-alignment-thesis/build/publisher_python/build/lib
+creating /media/kenan/kenan-acads/thesis/robot-alignment-thesis/build/publisher_python/build/lib/publisher_python
+copying publisher_python/publisher.py -> /media/kenan/kenan-acads/thesis/robot-alignment-thesis/build/publisher_python/build/lib/publisher_python
+copying publisher_python/subscriber.py -> /media/kenan/kenan-acads/thesis/robot-alignment-thesis/build/publisher_python/build/lib/publisher_python
+copying publisher_python/__init__.py -> /media/kenan/kenan-acads/thesis/robot-alignment-thesis/build/publisher_python/build/lib/publisher_python
+running install
+running install_lib
+creating /media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/publisher_python/lib/python3.8/site-packages/publisher_python
+copying /media/kenan/kenan-acads/thesis/robot-alignment-thesis/build/publisher_python/build/lib/publisher_python/publisher.py -> /media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/publisher_python/lib/python3.8/site-packages/publisher_python
+copying /media/kenan/kenan-acads/thesis/robot-alignment-thesis/build/publisher_python/build/lib/publisher_python/subscriber.py -> /media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/publisher_python/lib/python3.8/site-packages/publisher_python
+copying /media/kenan/kenan-acads/thesis/robot-alignment-thesis/build/publisher_python/build/lib/publisher_python/__init__.py -> /media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/publisher_python/lib/python3.8/site-packages/publisher_python
+byte-compiling /media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/publisher_python/lib/python3.8/site-packages/publisher_python/publisher.py to publisher.cpython-38.pyc
+byte-compiling /media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/publisher_python/lib/python3.8/site-packages/publisher_python/subscriber.py to subscriber.cpython-38.pyc
+byte-compiling /media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/publisher_python/lib/python3.8/site-packages/publisher_python/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/publisher_python/share/ament_index
+creating /media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/publisher_python/share/ament_index/resource_index
+creating /media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/publisher_python/share/ament_index/resource_index/packages
+copying resource/publisher_python -> /media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/publisher_python/share/ament_index/resource_index/packages
+copying package.xml -> /media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/publisher_python/share/publisher_python
+running install_egg_info
+Copying ../../../../build/publisher_python/publisher_python.egg-info to /media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/publisher_python/lib/python3.8/site-packages/publisher_python-0.0.0-py3.8.egg-info
+running install_scripts
+Installing listener script to /media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/publisher_python/lib/publisher-python
+Installing talker script to /media/kenan/kenan-acads/thesis/robot-alignment-thesis/install/publisher_python/lib/publisher-python
+writing list of installed files to '/media/kenan/kenan-acads/thesis/robot-alignment-thesis/build/publisher_python/install.log'

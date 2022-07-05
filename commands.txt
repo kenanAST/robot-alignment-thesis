@@ -1,10 +1,10 @@
 gazebo --verbose main.world
-killall gazebo
-killall gserver
+. install/setup.bash
 colcon build --packages-select py_pysub
 ros2 run robov commander
-. install/setup.bash
 ros2 node list
 ros2 topic list
 ros2 pubs
 ros2 publisher list
+killall gazebo
+killall gzserver

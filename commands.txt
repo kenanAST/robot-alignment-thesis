@@ -4,7 +4,5 @@ colcon build --packages-select py_pysub
 ros2 run robov commander
 ros2 node list
 ros2 topic list
-ros2 pubs
-ros2 publisher list
 killall gazebo
 killall gzserver

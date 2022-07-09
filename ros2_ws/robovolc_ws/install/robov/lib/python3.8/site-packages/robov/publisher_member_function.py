@@ -8,8 +8,8 @@ from std_msgs.msg import String
 class MinimalPublisher(Node):
     def __init__(self):
         super().__init__('minimal_publisher')
-        self.publisher_ = self.create_publisher(Twist, '/left_2/cmd_demo', 10)
-        self.sidePublisher_ = self.create_publisher(Twist, '/left_2/cmd_demo', 10)
+        self.publisher_ = self.create_publisher(Twist, '/commanderFront/cmd_demo', 10)
+        self.sidePublisher_ = self.create_publisher(Twist, '/commanderBack/cmd_demo', 10)
         while True:
             front = Twist()
             side = Twist()

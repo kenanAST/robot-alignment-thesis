@@ -214,7 +214,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/kenan/kenan-acads/thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/lowerframe.dae</uri>
+              <uri>/home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/lowerframe.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -236,7 +236,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/kenan/kenan-acads/thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/lowerframe.dae</uri>
+              <uri>/home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/lowerframe.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -308,7 +308,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/kenan/kenan-acads/thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/freedom.dae</uri>
+              <uri>/home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/freedom.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -330,7 +330,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/kenan/kenan-acads/thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/freedom.dae</uri>
+              <uri>/home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/freedom.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -402,7 +402,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/kenan/kenan-acads/thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/freedom.dae</uri>
+              <uri>/home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/freedom.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -424,7 +424,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/kenan/kenan-acads/thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/freedom.dae</uri>
+              <uri>/home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/freedom.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -496,7 +496,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/kenan/kenan-acads/thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/wheel.dae</uri>
+              <uri>/home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/wheel.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -518,7 +518,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/kenan/kenan-acads/thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/wheel.dae</uri>
+              <uri>/home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/wheel.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -590,7 +590,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/kenan/kenan-acads/thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/wheel.dae</uri>
+              <uri>/home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/wheel.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -612,7 +612,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/kenan/kenan-acads/thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/wheel.dae</uri>
+              <uri>/home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/wheel.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -685,7 +685,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/kenan/kenan-acads/thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/wheel.dae</uri>
+              <uri>/home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/wheel.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -712,7 +712,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/kenan/kenan-acads/thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/wheel.dae</uri>
+              <uri>/home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/wheel.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -785,7 +785,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/kenan/kenan-acads/thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/wheel.dae</uri>
+              <uri>/home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/wheel.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -812,7 +812,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/kenan/kenan-acads/thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/wheel.dae</uri>
+              <uri>/home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/wheel.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -885,7 +885,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/kenan/kenan-acads/thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/wheel.dae</uri>
+              <uri>/home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/wheel.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -912,7 +912,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/kenan/kenan-acads/thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/wheel.dae</uri>
+              <uri>/home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/wheel.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -984,7 +984,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/kenan/kenan-acads/thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/wheel.dae</uri>
+              <uri>/home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/wheel.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -1006,7 +1006,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/kenan/kenan-acads/thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/wheel.dae</uri>
+              <uri>/home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/wheel.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -1078,7 +1078,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/kenan/kenan-acads/thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/body.dae</uri>
+              <uri>/home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/body.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -1100,7 +1100,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/kenan/kenan-acads/thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/body.dae</uri>
+              <uri>/home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/body.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -1172,7 +1172,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/kenan/kenan-acads/thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/box.dae</uri>
+              <uri>/home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/box.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -1194,7 +1194,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/kenan/kenan-acads/thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/box.dae</uri>
+              <uri>/home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/box.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>

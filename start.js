@@ -5,7 +5,7 @@ exec('node compile.js',
         console.log('stdout: ' + stdout);
     });
 
-exec('gazebo --verbose ./gazebo/worlds/main.world',
+exec('gz sim -v 4 ./gazebo/worlds/main.world',
     function (error, stdout, stderr) {
         console.log('stdout: ' + stdout);
     });

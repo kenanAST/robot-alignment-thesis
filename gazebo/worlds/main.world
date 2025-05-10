@@ -235,10 +235,9 @@
           <max_contacts>10</max_contacts>
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
-            <mesh>
-              <uri>/home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/lowerframe.dae</uri>
-              <scale>1 1 1</scale>
-            </mesh>
+            <box>
+              <size>0.8 0.8 0.2</size>
+            </box>
           </geometry>
           <surface>
             <friction>
@@ -329,10 +328,9 @@
           <max_contacts>10</max_contacts>
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
-            <mesh>
-              <uri>/home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/freedom.dae</uri>
-              <scale>1 1 1</scale>
-            </mesh>
+            <box>
+              <size>0.8 0.8 0.2</size>
+            </box>
           </geometry>
           <surface>
             <friction>
@@ -423,10 +421,9 @@
           <max_contacts>10</max_contacts>
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
-            <mesh>
-              <uri>/home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/freedom.dae</uri>
-              <scale>1 1 1</scale>
-            </mesh>
+            <box>
+              <size>0.8 0.8 0.2</size>
+            </box>
           </geometry>
           <surface>
             <friction>
@@ -517,10 +514,10 @@
           <max_contacts>10</max_contacts>
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
-            <mesh>
-              <uri>/home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/wheel.dae</uri>
-              <scale>1 1 1</scale>
-            </mesh>
+            <cylinder>
+              <radius>0.3</radius>
+              <length>0.2</length>
+            </cylinder>
           </geometry>
           <surface>
             <friction>
@@ -611,10 +608,10 @@
           <max_contacts>10</max_contacts>
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
-            <mesh>
-              <uri>/home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/wheel.dae</uri>
-              <scale>1 1 1</scale>
-            </mesh>
+            <cylinder>
+              <radius>0.3</radius>
+              <length>0.2</length>
+            </cylinder>
           </geometry>
           <surface>
             <friction>
@@ -711,10 +708,10 @@
           <max_contacts>10</max_contacts>
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
-            <mesh>
-              <uri>/home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/wheel.dae</uri>
-              <scale>1 1 1</scale>
-            </mesh>
+            <cylinder>
+              <radius>0.3</radius>
+              <length>0.2</length>
+            </cylinder>
           </geometry>
           <surface>
             <friction>
@@ -811,10 +808,10 @@
           <max_contacts>10</max_contacts>
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
-            <mesh>
-              <uri>/home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/wheel.dae</uri>
-              <scale>1 1 1</scale>
-            </mesh>
+            <cylinder>
+              <radius>0.3</radius>
+              <length>0.2</length>
+            </cylinder>
           </geometry>
           <surface>
             <friction>
@@ -911,10 +908,10 @@
           <max_contacts>10</max_contacts>
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
-            <mesh>
-              <uri>/home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/wheel.dae</uri>
-              <scale>1 1 1</scale>
-            </mesh>
+            <cylinder>
+              <radius>0.3</radius>
+              <length>0.2</length>
+            </cylinder>
           </geometry>
           <surface>
             <friction>
@@ -1005,10 +1002,10 @@
           <max_contacts>10</max_contacts>
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
-            <mesh>
-              <uri>/home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/wheel.dae</uri>
-              <scale>1 1 1</scale>
-            </mesh>
+            <cylinder>
+              <radius>0.3</radius>
+              <length>0.2</length>
+            </cylinder>
           </geometry>
           <surface>
             <friction>
@@ -1099,10 +1096,9 @@
           <max_contacts>10</max_contacts>
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
-            <mesh>
-              <uri>/home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/body.dae</uri>
-              <scale>1 1 1</scale>
-            </mesh>
+            <box>
+              <size>0.9 0.9 0.4</size>
+            </box>
           </geometry>
           <surface>
             <friction>
@@ -1193,10 +1189,9 @@
           <max_contacts>10</max_contacts>
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
-            <mesh>
-              <uri>/home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/models/robovolc/parts/box.dae</uri>
-              <scale>1 1 1</scale>
-            </mesh>
+            <box>
+              <size>0.4 0.4 0.3</size>
+            </box>
           </geometry>
           <surface>
             <friction>

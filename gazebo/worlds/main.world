@@ -43,7 +43,7 @@
             <heightmap>
               <uri>file:///home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/media/dem/mtsthelens_129.dem</uri>
               <size>150 150 50</size>
-              <pos>0 0 -705</pos>
+              <pos>0 0 0</pos>
             </heightmap>
           </geometry>
           <surface>
@@ -63,7 +63,7 @@
             <heightmap>
               <uri>file:///home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/media/dem/mtsthelens_129.dem</uri>
               <size>150 150 50</size>
-              <pos>0 0 -705</pos>
+              <pos>0 0 0</pos>
               <texture>
                 <diffuse>file:///home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/media/materials/textures/dirt_diffusespecular.png</diffuse>
                 <normal>file:///home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/media/materials/textures/flat_normal.png</normal>
@@ -86,10 +86,15 @@
     <gravity>0 0 -9.8</gravity>
     <magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
     <atmosphere type='adiabatic'/>
-    <physics type='ode'>
+    <physics type='bullet'>
       <max_step_size>0.001</max_step_size>
       <real_time_factor>1</real_time_factor>
       <real_time_update_rate>1000</real_time_update_rate>
+      <bullet>
+        <solver>
+          <type>sequential_impulse</type>
+        </solver>
+      </bullet>
     </physics>
     <scene>
       <ambient>0.4 0.4 0.4 1</ambient>
@@ -116,7 +121,7 @@
       <wall_time>1650402498 967285641</wall_time>
       <iterations>85668</iterations>
       <model name='robovolc'>
-        <pose>70 70 0.3 0 0 0</pose>
+        <pose>0 0 2.0 0 0 0</pose>
         <scale>1 1 1</scale>
         <link name='link_0'>
           <pose>5.17727 1.30916 0.362134 0.000138 0.000185 0.001666</pose>
@@ -1706,7 +1711,7 @@
       </joint>
       <static>0</static>
       <allow_auto_disable>1</allow_auto_disable>
-      <pose>36 -41 -12 0 -0 0</pose>
+      <pose>-20 -30.5 698 0 0 0</pose>
       <plugin name='gz::sim::systems::DiffDrive' filename='gz-sim-diff-drive-system'>
         <left_joint>left_1</left_joint>
         <right_joint>left_1</right_joint>
@@ -1798,9 +1803,9 @@
       </plugin>
 
     </model>
-    <gui fullscreen='0'>
+    <gui fullscreen='1'>
       <camera name='user_camera'>
-        <pose>46 -51 -2 0 0.5 0.8</pose>
+        <pose>46 -51 -2100 0 0.5 0.8</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>

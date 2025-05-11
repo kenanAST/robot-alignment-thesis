@@ -1,5 +1,22 @@
 <sdf version='1.7'>
   <world name='default'>
+    <plugin
+      filename="gz-sim-physics-system"
+      name="gz::sim::systems::Physics">
+    </plugin>
+    <plugin
+      filename="gz-sim-user-commands-system"
+      name="gz::sim::systems::UserCommands">
+    </plugin>
+    <plugin
+      filename="gz-sim-scene-broadcaster-system"
+      name="gz::sim::systems::SceneBroadcaster">
+    </plugin>
+    <plugin
+      filename="gz-sim-sensors-system"
+      name="gz::sim::systems::Sensors">
+      <render_engine>ogre2</render_engine>
+    </plugin>
     <light name='sun' type='directional'>
       <cast_shadows>1</cast_shadows>
       <pose>0 0 10 0 -0 0</pose>
@@ -225,13 +242,10 @@
             </mesh>
           </geometry>
           <material>
-            <lighting>1</lighting>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Grey</name>
-            </script>
-            <shader type='pixel'/>
-            <emissive>0 0 0 1</emissive>
+            <ambient>0.8 0.8 0.1 1.0</ambient>
+            <diffuse>1.0 1.0 0.2 1.0</diffuse>
+            <specular>0.2 0.2 0.2 1.0</specular>
+            <emissive>0 0 0 1.0</emissive>
           </material>
           <transparency>0</transparency>
           <cast_shadows>1</cast_shadows>
@@ -318,13 +332,10 @@
             </mesh>
           </geometry>
           <material>
-            <lighting>1</lighting>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Grey</name>
-            </script>
-            <shader type='pixel'/>
-            <emissive>0 0 0 1</emissive>
+            <ambient>0.5 0.5 0.5 1.0</ambient>
+            <diffuse>0.6 0.6 0.65 1.0</diffuse>
+            <specular>0.7 0.7 0.7 1.0</specular>
+            <emissive>0 0 0 1.0</emissive>
           </material>
           <transparency>0</transparency>
           <cast_shadows>1</cast_shadows>
@@ -411,13 +422,10 @@
             </mesh>
           </geometry>
           <material>
-            <lighting>1</lighting>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Grey</name>
-            </script>
-            <shader type='pixel'/>
-            <emissive>0 0 0 1</emissive>
+            <ambient>0.5 0.5 0.5 1.0</ambient>
+            <diffuse>0.6 0.6 0.65 1.0</diffuse>
+            <specular>0.7 0.7 0.7 1.0</specular>
+            <emissive>0 0 0 1.0</emissive>
           </material>
           <transparency>0</transparency>
           <cast_shadows>1</cast_shadows>
@@ -504,13 +512,10 @@
             </mesh>
           </geometry>
           <material>
-            <lighting>1</lighting>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Grey</name>
-            </script>
-            <shader type='pixel'/>
-            <emissive>0 0 0 1</emissive>
+            <ambient>0.1 0.1 0.1 1.0</ambient>
+            <diffuse>0.15 0.15 0.15 1.0</diffuse>
+            <specular>0.1 0.1 0.1 1.0</specular>
+            <emissive>0 0 0 1.0</emissive>
           </material>
           <transparency>0</transparency>
           <cast_shadows>1</cast_shadows>
@@ -598,13 +603,10 @@
             </mesh>
           </geometry>
           <material>
-            <lighting>1</lighting>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Grey</name>
-            </script>
-            <shader type='pixel'/>
-            <emissive>0 0 0 1</emissive>
+            <ambient>0.1 0.1 0.1 1.0</ambient>
+            <diffuse>0.15 0.15 0.15 1.0</diffuse>
+            <specular>0.1 0.1 0.1 1.0</specular>
+            <emissive>0 0 0 1.0</emissive>
           </material>
           <transparency>0</transparency>
           <cast_shadows>1</cast_shadows>
@@ -693,18 +695,10 @@
             </mesh>
           </geometry>
           <material>
-            <lighting>1</lighting>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Grey</name>
-            </script>
-            <shader type='pixel'>
-              <normal_map>__default__</normal_map>
-            </shader>
-            <emissive>0 0 0 1</emissive>
-            <ambient>0.3 0.3 0.3 1</ambient>
-            <diffuse>0.7 0.7 0.7 1</diffuse>
-            <specular>0.01 0.01 0.01 1</specular>
+            <ambient>0.1 0.1 0.1 1.0</ambient>
+            <diffuse>0.15 0.15 0.15 1.0</diffuse>
+            <specular>0.1 0.1 0.1 1.0</specular>
+            <emissive>0 0 0 1.0</emissive>
           </material>
           <transparency>0</transparency>
           <cast_shadows>1</cast_shadows>
@@ -793,18 +787,10 @@
             </mesh>
           </geometry>
           <material>
-            <lighting>1</lighting>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Grey</name>
-            </script>
-            <shader type='pixel'>
-              <normal_map>__default__</normal_map>
-            </shader>
-            <emissive>0 0 0 1</emissive>
-            <ambient>0.3 0.3 0.3 1</ambient>
-            <diffuse>0.7 0.7 0.7 1</diffuse>
-            <specular>0.01 0.01 0.01 1</specular>
+            <ambient>0.1 0.1 0.1 1.0</ambient>
+            <diffuse>0.15 0.15 0.15 1.0</diffuse>
+            <specular>0.1 0.1 0.1 1.0</specular>
+            <emissive>0 0 0 1.0</emissive>
           </material>
           <transparency>0</transparency>
           <cast_shadows>1</cast_shadows>
@@ -893,18 +879,10 @@
             </mesh>
           </geometry>
           <material>
-            <lighting>1</lighting>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Grey</name>
-            </script>
-            <shader type='pixel'>
-              <normal_map>__default__</normal_map>
-            </shader>
-            <emissive>0 0 0 1</emissive>
-            <ambient>0.3 0.3 0.3 1</ambient>
-            <diffuse>0.7 0.7 0.7 1</diffuse>
-            <specular>0.01 0.01 0.01 1</specular>
+            <ambient>0.1 0.1 0.1 1.0</ambient>
+            <diffuse>0.15 0.15 0.15 1.0</diffuse>
+            <specular>0.1 0.1 0.1 1.0</specular>
+            <emissive>0 0 0 1.0</emissive>
           </material>
           <transparency>0</transparency>
           <cast_shadows>1</cast_shadows>
@@ -992,13 +970,10 @@
             </mesh>
           </geometry>
           <material>
-            <lighting>1</lighting>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Grey</name>
-            </script>
-            <shader type='pixel'/>
-            <emissive>0 0 0 1</emissive>
+            <ambient>0.1 0.1 0.1 1.0</ambient>
+            <diffuse>0.15 0.15 0.15 1.0</diffuse>
+            <specular>0.1 0.1 0.1 1.0</specular>
+            <emissive>0 0 0 1.0</emissive>
           </material>
           <transparency>0</transparency>
           <cast_shadows>1</cast_shadows>
@@ -1086,13 +1061,10 @@
             </mesh>
           </geometry>
           <material>
-            <lighting>1</lighting>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Grey</name>
-            </script>
-            <shader type='pixel'/>
-            <emissive>0 0 0 1</emissive>
+            <ambient>0.8 0.8 0.1 1.0</ambient>
+            <diffuse>1.0 1.0 0.2 1.0</diffuse>
+            <specular>0.2 0.2 0.2 1.0</specular>
+            <emissive>0 0 0 1.0</emissive>
           </material>
           <transparency>0</transparency>
           <cast_shadows>1</cast_shadows>
@@ -1179,13 +1151,10 @@
             </mesh>
           </geometry>
           <material>
-            <lighting>1</lighting>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Grey</name>
-            </script>
-            <shader type='pixel'/>
-            <emissive>0 0 0 1</emissive>
+            <ambient>0.1 0.1 0.1 1.0</ambient>
+            <diffuse>0.15 0.15 0.15 1.0</diffuse>
+            <specular>0.1 0.1 0.1 1.0</specular>
+            <emissive>0 0 0 1.0</emissive>
           </material>
           <transparency>0</transparency>
           <cast_shadows>1</cast_shadows>
@@ -1272,13 +1241,10 @@
             </cylinder>
           </geometry>
           <material>
-            <lighting>1</lighting>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Grey</name>
-            </script>
-            <shader type='pixel'/>
-            <emissive>0 0 0 1</emissive>
+            <ambient>0.5 0.5 0.5 1.0</ambient>
+            <diffuse>0.6 0.6 0.65 1.0</diffuse>
+            <specular>0.7 0.7 0.7 1.0</specular>
+            <emissive>0 0 0 1.0</emissive>
           </material>
           <transparency>0</transparency>
           <cast_shadows>1</cast_shadows>
@@ -1381,6 +1347,12 @@
                 <size>0.1 0.1 0.1</size>
               </box>
             </geometry>
+            <material>
+              <ambient>0.1 0.1 0.1 1.0</ambient>
+              <diffuse>0.15 0.15 0.15 1.0</diffuse>
+              <specular>0.1 0.1 0.1 1.0</specular>
+              <emissive>0 0 0 1.0</emissive>
+            </material>
           </visual>
           <sensor name='camera' type='camera'>
             <camera>
@@ -1412,7 +1384,7 @@
           <limit>
             <lower>-1.79769e+308</lower>
             <upper>1.79769e+308</upper>
-            <effort>-1</effort>
+            <effort>20</effort>
             <velocity>-1</velocity>
           </limit>
           <dynamics>
@@ -1444,7 +1416,7 @@
           <limit>
             <lower>-1.79769e+308</lower>
             <upper>1.79769e+308</upper>
-            <effort>-1</effort>
+            <effort>20</effort>
             <velocity>-1</velocity>
           </limit>
           <dynamics>
@@ -1476,7 +1448,7 @@
           <limit>
             <lower>-1.79769e+308</lower>
             <upper>1.79769e+308</upper>
-            <effort>-1</effort>
+            <effort>20</effort>
             <velocity>-1</velocity>
           </limit>
           <dynamics>
@@ -1655,7 +1627,7 @@
           <limit>
             <lower>-1.79769e+308</lower>
             <upper>1.79769e+308</upper>
-            <effort>-1</effort>
+            <effort>20</effort>
             <velocity>-1</velocity>
           </limit>
           <dynamics>
@@ -1687,7 +1659,7 @@
           <limit>
             <lower>-1.79769e+308</lower>
             <upper>1.79769e+308</upper>
-            <effort>-1</effort>
+            <effort>20</effort>
             <velocity>-1</velocity>
           </limit>
           <dynamics>
@@ -1719,7 +1691,7 @@
           <limit>
             <lower>-1.79769e+308</lower>
             <upper>1.79769e+308</upper>
-            <effort>-1</effort>
+            <effort>20</effort>
             <velocity>-1</velocity>
           </limit>
           <dynamics>
@@ -1746,186 +1718,94 @@
       <allow_auto_disable>1</allow_auto_disable>
       <pose>5.23214 1.29837 0.894558 0 -0 0</pose>
 
-      
-
-      <plugin name='diff_drive' filename='libgazebo_ros_diff_drive.so'>
-
-        <ros>
-          <namespace>/left_1</namespace>
-          <remapping>cmd_vel:=cmd_demo</remapping>
-          <remapping>odom:=odom_demo</remapping>
-        </ros>
-
-        <!-- wheels -->
+      <plugin name='gz::sim::systems::DiffDrive' filename='gz-sim-diff-drive-system'>
         <left_joint>left_1</left_joint>
         <right_joint>left_1</right_joint>
-
-        <!-- kinematics -->
-        <wheel_separation>1.25</wheel_separation>
-        <wheel_diameter>0.6</wheel_diameter>
-
-        <!-- limits -->
-        <max_wheel_torque>20</max_wheel_torque>
-        <max_wheel_acceleration>1.0</max_wheel_acceleration>
-
-        <!-- output -->
+        <wheel_separation>0.0</wheel_separation>
+        <wheel_radius>0.3</wheel_radius>
         <publish_odom>true</publish_odom>
         <publish_odom_tf>true</publish_odom_tf>
         <publish_wheel_tf>true</publish_wheel_tf>
-
-        <odometry_frame>odom_demo</odometry_frame>
-        <robot_base_frame>chassis</robot_base_frame>
-
+        <frame_id>/left_1/odom_demo</frame_id>
+        <child_frame_id>link_0</child_frame_id>
+        <topic>/left_1/cmd_demo</topic>
+        <odom_topic>/left_1/odom_demo</odom_topic>
+        <tf_topic>/left_1/tf</tf_topic>
       </plugin>
 
-      <plugin name='diff_drive' filename='libgazebo_ros_diff_drive.so'>
-
-        <ros>
-          <namespace>/left_2</namespace>
-          <remapping>cmd_vel:=cmd_demo</remapping>
-          <remapping>odom:=odom_demo</remapping>
-        </ros>
-
-        <!-- wheels -->
+      <plugin name='gz::sim::systems::DiffDrive' filename='gz-sim-diff-drive-system'>
         <left_joint>left_2</left_joint>
         <right_joint>left_2</right_joint>
-
-        <!-- kinematics -->
-        <wheel_separation>1.25</wheel_separation>
-        <wheel_diameter>0.6</wheel_diameter>
-
-        <!-- limits -->
-        <max_wheel_torque>20</max_wheel_torque>
-        <max_wheel_acceleration>1.0</max_wheel_acceleration>
-
-        <!-- output -->
+        <wheel_separation>0.0</wheel_separation>
+        <wheel_radius>0.3</wheel_radius>
         <publish_odom>true</publish_odom>
         <publish_odom_tf>true</publish_odom_tf>
         <publish_wheel_tf>true</publish_wheel_tf>
-
-        <odometry_frame>odom_demo</odometry_frame>
-        <robot_base_frame>chassis</robot_base_frame>
-
+        <frame_id>/left_2/odom_demo</frame_id>
+        <child_frame_id>link_0</child_frame_id>
+        <topic>/left_2/cmd_demo</topic>
+        <odom_topic>/left_2/odom_demo</odom_topic>
+        <tf_topic>/left_2/tf</tf_topic>
       </plugin>
 
-      <plugin name='diff_drive' filename='libgazebo_ros_diff_drive.so'>
-
-        <ros>
-          <namespace>/left_3</namespace>
-          <remapping>cmd_vel:=cmd_demo</remapping>
-          <remapping>odom:=odom_demo</remapping>
-        </ros>
-
-        <!-- wheels -->
+      <plugin name='gz::sim::systems::DiffDrive' filename='gz-sim-diff-drive-system'>
         <left_joint>left_3</left_joint>
         <right_joint>left_3</right_joint>
-
-        <!-- kinematics -->
-        <wheel_separation>1.25</wheel_separation>
-        <wheel_diameter>0.6</wheel_diameter>
-
-        <!-- limits -->
-        <max_wheel_torque>20</max_wheel_torque>
-        <max_wheel_acceleration>1.0</max_wheel_acceleration>
-
-        <!-- output -->
+        <wheel_separation>0.0</wheel_separation>
+        <wheel_radius>0.3</wheel_radius>
         <publish_odom>true</publish_odom>
         <publish_odom_tf>true</publish_odom_tf>
         <publish_wheel_tf>true</publish_wheel_tf>
-
-        <odometry_frame>odom_demo</odometry_frame>
-        <robot_base_frame>chassis</robot_base_frame>
-
+        <frame_id>/left_3/odom_demo</frame_id>
+        <child_frame_id>link_0</child_frame_id>
+        <topic>/left_3/cmd_demo</topic>
+        <odom_topic>/left_3/odom_demo</odom_topic>
+        <tf_topic>/left_3/tf</tf_topic>
       </plugin>
 
-      <plugin name='diff_drive' filename='libgazebo_ros_diff_drive.so'>
-
-        <ros>
-          <namespace>/right_1</namespace>
-          <remapping>cmd_vel:=cmd_demo</remapping>
-          <remapping>odom:=odom_demo</remapping>
-        </ros>
-
-        <!-- wheels -->
+      <plugin name='gz::sim::systems::DiffDrive' filename='gz-sim-diff-drive-system'>
         <left_joint>right_1</left_joint>
         <right_joint>right_1</right_joint>
-
-        <!-- kinematics -->
-        <wheel_separation>1.25</wheel_separation>
-        <wheel_diameter>0.6</wheel_diameter>
-
-        <!-- limits -->
-        <max_wheel_torque>20</max_wheel_torque>
-        <max_wheel_acceleration>1.0</max_wheel_acceleration>
-
-        <!-- output -->
+        <wheel_separation>0.0</wheel_separation>
+        <wheel_radius>0.3</wheel_radius>
         <publish_odom>true</publish_odom>
         <publish_odom_tf>true</publish_odom_tf>
         <publish_wheel_tf>true</publish_wheel_tf>
-
-        <odometry_frame>odom_demo</odometry_frame>
-        <robot_base_frame>chassis</robot_base_frame>
-
+        <frame_id>/right_1/odom_demo</frame_id>
+        <child_frame_id>link_0</child_frame_id>
+        <topic>/right_1/cmd_demo</topic>
+        <odom_topic>/right_1/odom_demo</odom_topic>
+        <tf_topic>/right_1/tf</tf_topic>
       </plugin>
 
-      <plugin name='diff_drive' filename='libgazebo_ros_diff_drive.so'>
-
-        <ros>
-          <namespace>/right_2</namespace>
-          <remapping>cmd_vel:=cmd_demo</remapping>
-          <remapping>odom:=odom_demo</remapping>
-        </ros>
-
-        <!-- wheels -->
+      <plugin name='gz::sim::systems::DiffDrive' filename='gz-sim-diff-drive-system'>
         <left_joint>right_2</left_joint>
         <right_joint>right_2</right_joint>
-
-        <!-- kinematics -->
-        <wheel_separation>1.25</wheel_separation>
-        <wheel_diameter>0.6</wheel_diameter>
-
-        <!-- limits -->
-        <max_wheel_torque>20</max_wheel_torque>
-        <max_wheel_acceleration>1.0</max_wheel_acceleration>
-
-        <!-- output -->
+        <wheel_separation>0.0</wheel_separation>
+        <wheel_radius>0.3</wheel_radius>
         <publish_odom>true</publish_odom>
         <publish_odom_tf>true</publish_odom_tf>
         <publish_wheel_tf>true</publish_wheel_tf>
-
-        <odometry_frame>odom_demo</odometry_frame>
-        <robot_base_frame>chassis</robot_base_frame>
-
+        <frame_id>/right_2/odom_demo</frame_id>
+        <child_frame_id>link_0</child_frame_id>
+        <topic>/right_2/cmd_demo</topic>
+        <odom_topic>/right_2/odom_demo</odom_topic>
+        <tf_topic>/right_2/tf</tf_topic>
       </plugin>
 
-      <plugin name='diff_drive' filename='libgazebo_ros_diff_drive.so'>
-
-        <ros>
-          <namespace>/right_3</namespace>
-          <remapping>cmd_vel:=cmd_demo</remapping>
-          <remapping>odom:=odom_demo</remapping>
-        </ros>
-
-        <!-- wheels -->
+      <plugin name='gz::sim::systems::DiffDrive' filename='gz-sim-diff-drive-system'>
         <left_joint>right_3</left_joint>
         <right_joint>right_3</right_joint>
-
-        <!-- kinematics -->
-        <wheel_separation>1.25</wheel_separation>
-        <wheel_diameter>0.6</wheel_diameter>
-
-        <!-- limits -->
-        <max_wheel_torque>20</max_wheel_torque>
-        <max_wheel_acceleration>1.0</max_wheel_acceleration>
-
-        <!-- output -->
+        <wheel_separation>0.0</wheel_separation>
+        <wheel_radius>0.3</wheel_radius>
         <publish_odom>true</publish_odom>
         <publish_odom_tf>true</publish_odom_tf>
         <publish_wheel_tf>true</publish_wheel_tf>
-
-        <odometry_frame>odom_demo</odometry_frame>
-        <robot_base_frame>chassis</robot_base_frame>
-
+        <frame_id>/right_3/odom_demo</frame_id>
+        <child_frame_id>link_0</child_frame_id>
+        <topic>/right_3/cmd_demo</topic>
+        <odom_topic>/right_3/odom_demo</odom_topic>
+        <tf_topic>/right_3/tf</tf_topic>
       </plugin>
 
     </model>

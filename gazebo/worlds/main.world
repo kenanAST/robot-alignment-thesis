@@ -196,7 +196,7 @@
           <wrench>-0.102134 0.004666 0.174661 0 -0 0</wrench>
         </link>
         <model name='camera'>
-          <pose>4.85023 1.3089 2.16672 0 -0 3.13666</pose>
+          <pose>-0.381907 0.010528 1.27216 0 -1.57 3.13666</pose>
           <scale>1 1 1</scale>
           <link name='link'>
             <pose>4.8097 1.31172 1.63436 6.4e-05 -0.000188 3.13833</pose>
@@ -1389,7 +1389,7 @@
         </collision>
       </link>
       <model name='camera'>
-        <pose>-0.381907 0.010528 1.27216 0 -0 3.13666</pose>
+        <pose>-0.381907 0.010528 1.27216 0 -1.57 3.13666</pose>
         <link name='link'>
           <inertial>
             <mass>0.1</mass>
@@ -1892,7 +1892,7 @@
     </model>
     <gui fullscreen='1'>
       <camera name='user_camera'>
-        <pose>46 -51 -2100 0 0.5 0.8</pose>
+        <pose>46 -51 -2100 0 -1.57 0.8</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>

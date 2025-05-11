@@ -35,52 +35,52 @@
         <falloff>0</falloff>
       </spot>
     </light>
-    <model name='ground_plane'>
-      <static>1</static>
+    <model name='heightmap_terrain'>
+      <static>true</static>
       <link name='link'>
         <collision name='collision'>
           <geometry>
-            <plane>
-              <normal>0 0 1</normal>
-              <size>100 100</size>
-            </plane>
+            <heightmap>
+              <uri>file:///home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/media/dem/mtsthelens_129.dem</uri>
+              <size>150 150 50</size>
+              <pos>0 0 -685</pos>
+            </heightmap>
           </geometry>
           <surface>
-            <contact>
-              <collide_bitmask>65535</collide_bitmask>
-              <ode/>
-            </contact>
             <friction>
               <ode>
-                <mu>100</mu>
-                <mu2>50</mu2>
+                <mu>1.0</mu>
+                <mu2>1.0</mu2>
               </ode>
-              <torsional>
-                <ode/>
-              </torsional>
             </friction>
-            <bounce/>
+            <contact>
+              <ode/>
+            </contact>
           </surface>
-          <max_contacts>10</max_contacts>
         </collision>
-        <visual name='visual'>
-          <cast_shadows>0</cast_shadows>
+        <visual name='visual_terrain'>
           <geometry>
-            <plane>
-              <normal>0 0 1</normal>
-              <size>100 100</size>
-            </plane>
+            <heightmap>
+              <uri>file:///home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/media/dem/mtsthelens_129.dem</uri>
+              <size>150 150 50</size>
+              <pos>0 0 -685</pos>
+              <texture>
+                <diffuse>file:///home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/media/materials/textures/dirt_diffusespecular.png</diffuse>
+                <normal>file:///home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/media/materials/textures/flat_normal.png</normal>
+                <size>10</size>
+              </texture>
+              <texture>
+                <diffuse>file:///home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/media/materials/textures/dirt_diffusespecular.png</diffuse>
+                <normal>file:///home/kenan/Documents/Thesis/robot-alignment-thesis/gazebo/media/materials/textures/flat_normal.png</normal>
+                <size>20</size>
+              </texture>
+              <blend>
+                <min_height>2</min_height> <!-- Adjust based on your DEM -->
+                <fade_dist>5</fade_dist> <!-- Adjust based on your DEM -->
+              </blend>
+            </heightmap>
           </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Grey</name>
-            </script>
-          </material>
         </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
       </link>
     </model>
     <gravity>0 0 -9.8</gravity>
@@ -115,16 +115,6 @@
       <real_time>86 296503158</real_time>
       <wall_time>1650402498 967285641</wall_time>
       <iterations>85668</iterations>
-      <model name='ground_plane'>
-        <pose>0 0 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose>0 0 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
       <model name='robovolc'>
         <pose>5.19138 1.30201 0.36213 0.000138 0.000185 0.001666</pose>
         <scale>1 1 1</scale>
